@@ -82,7 +82,7 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = " 🌿𝐇𝐨𝐰 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝🦞"
-DOWNLOAD_TEXT_URL = "https://t.me/GT_MOVIESS"
+DOWNLOAD_TEXT_URL = "https://t.me/GT_MOVIESS/4"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "🏵𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🎋"
