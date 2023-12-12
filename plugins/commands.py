@@ -24,7 +24,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('♻️𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐮𝐩♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('♣𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🌿', url='https://t.me/GT_MOVIES1'),
+            InlineKeyboardButton('♣𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🌿', url='https://t.me/GT_MOVIESSs'),
             InlineKeyboardButton('🦞𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩👨‍🏫', url='https://t.me/Gt_Movies_Request')
         ], [
             InlineKeyboardButton('💥𝐒𝐮𝐩𝐩𝐨𝐫𝐭💐', callback_data='help'),
@@ -47,7 +47,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('♻️𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐮𝐩♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽', url='https://t.me/GT_MOVIES1'),
+            InlineKeyboardButton('🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽', url='https://t.me/GT_MOVIESS'),
             InlineKeyboardButton('🦞𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩👨‍🏫', url='https://t.me/Gt_Movies_Request')
         ], [
             InlineKeyboardButton('💥𝐒𝐮𝐩𝐩𝐨𝐫𝐭💐', callback_data='help'),
@@ -95,7 +95,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('♻️𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐮𝐩♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽', url='https://t.me/GT_MOVIES1'),
+            InlineKeyboardButton('🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽', url='https://t.me/GT_MOVIESS'),
             InlineKeyboardButton('🦞𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩👨‍🏫', url='https://t.me/Gt_Movies_Request')
         ], [
             InlineKeyboardButton('💥𝐒𝐮𝐩𝐩𝐨𝐫𝐭💐', callback_data='help'),
