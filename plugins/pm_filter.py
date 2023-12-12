@@ -109,7 +109,7 @@ async def next_page(bot, query):
     btn.insert(0,
         [
             InlineKeyboardButton("🦞𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩👨‍🏫", url="https://t.me/Gt_Movies_Request"),
-            InlineKeyboardButton("🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽", url="https://t.me/GT_MOVIES1")
+            InlineKeyboardButton("🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽", url="https://t.me/GT_MOVIESS")
         ]
     )
 
@@ -123,7 +123,7 @@ async def next_page(bot, query):
     # How to Download button
    
     btn.append(
-    [InlineKeyboardButton("🥀𝐇𝐨𝐰 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝🦞", url="https://t.me/GT_MOVIES1/9"),]
+    [InlineKeyboardButton("🥀𝐇𝐨𝐰 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝🦞", url="https://t.me/GT_MOVIESS/4"),]
 )
     if n_offset == 0:
         btn.append(
@@ -442,7 +442,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('♻️𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐔 𝐑 𝐆𝐫𝐮𝐩♻️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽', url='https://t.me/GT_MOVIES1'),
+            InlineKeyboardButton('🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽', url='https://t.me/GT_MOVIESS'),
             InlineKeyboardButton('🦞𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩👨‍🏫', url='https://t.me/Gt_Movies_Request')
         ], [
             InlineKeyboardButton('💥𝐒𝐮𝐩𝐩𝐨𝐫𝐭💐', callback_data='help'),
@@ -475,7 +475,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽', url='https://t.me/GT_MOVIES1'),
+            InlineKeyboardButton('🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽', url='https://t.me/GT_MOVIESS'),
             InlineKeyboardButton('👑𝐀𝐮𝐭𝐡𝐨𝐫🥀', callback_data='source')
         ],[
             InlineKeyboardButton('🍁𝐇𝐨𝐦𝐞🌿', callback_data='start'),
@@ -702,12 +702,12 @@ async def auto_filter(client, msg, spoll=False):
     btn.insert(0,
         [
             InlineKeyboardButton("🦞𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩👨‍🏫", url="https://t.me/Gt_Movies_Request"),
-            InlineKeyboardButton("⚡🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽", url="https://t.me/GT_MOVIES1")
+            InlineKeyboardButton("⚡🍃𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🗽", url="https://t.me/GT_MOVIESS")
         ]
     )
     
     btn.append(
-    [InlineKeyboardButton("🥀𝐇𝐨𝐰 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝🦞", url="https://t.me/GT_MOVIES1/9"),]
+    [InlineKeyboardButton("🥀𝐇𝐨𝐰 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝🦞", url="https://t.me/GT_MOVIESS/4"),]
 )
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
