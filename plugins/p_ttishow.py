@@ -38,7 +38,7 @@ async def save_group(bot, message):
             return
         buttons = [[
             InlineKeyboardButton('𝐇𝐨𝐰 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/GT_MOVIES1')
+            InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/GT_MOVIESS')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -57,7 +57,7 @@ async def save_group(bot, message):
                 video="https://telegra.ph/file/03691465baa774e46506d.mp4",                                               
                                                  caption=f'<b>Hey there... {u.mention} 😍\nWelcome to {message.chat.title} How Are You?\n\n👉Request Format\nMovie Name (Correct spelling)\nYear Or Language\n\n👉 Search On Google & Paste Here! With Correct Proper Spelling! To Get Movie\n\n👉Example :\nVidaaMuyarchi (2023) Tamil\nLeo (2023) Tamil\n\n👉Dont Type ( Movie, bro, anupuga, hd) You wont get Anything!</b>',
 
-                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('♣𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🎋', url='https://t.me/GT_MOVIES1') ],
+                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('♣𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🎋', url='https://t.me/GT_MOVIESS') ],
 
                                                                                       [ InlineKeyboardButton('♠𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩🥀', url='https://t.me/Gt_Movies_Request') ]
 
@@ -71,7 +71,7 @@ async def leave_a_chat(bot, message):
         return await message.reply('Give me a chat id')
     chat = message.command[1]
     try:
-        chat = int(chat)
+        chat = int(chat)5
     except:
         chat = chat
     try:
