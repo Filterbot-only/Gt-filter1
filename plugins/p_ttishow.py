@@ -71,7 +71,7 @@ async def leave_a_chat(bot, message):
         return await message.reply('Give me a chat id')
     chat = message.command[1]
     try:
-        chat = int(chat)5
+        chat = int(chat)
     except:
         chat = chat
     try:
